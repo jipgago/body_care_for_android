@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/showImg"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:text=""
+        android:gravity="center"
+        android:id="@+id/showResult"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="500px"
+            android:layout_height="100px"
+            android:layout_marginRight="5dp"
+            android:text="카메라"
+            android:id="@+id/btnCapture1"
+            />
+        <Button
+            android:layout_width="500px"
+            android:layout_height="100px"
+            android:text="갤러리"
+            android:id="@+id/choosePic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="500px"
+            android:layout_height="100px"
+            android:text="결과보기"
+            android:id="@+id/predict"
+            android:layout_marginRight="5dp"
+            />
+        <Button
+            android:layout_width="500px"
+            android:layout_height="100px"
+            android:text="Solution"
+            android:id="@+id/btnSolution"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="150px"
+                android:layout_height="80px"
+                android:text=""
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="50px"/>
+
+            <TextView
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:text="맞음"
+                android:textSize="28px"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="50px"/>
+
+            <TextView
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:text="아님"
+                android:textSize="28px"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="150px"
+                android:layout_height="80px"
+                android:text="거북목"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="50px"/>
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:id="@+id/text"
+                android:background="@color/white"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="50px"/>
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:id="@+id/no_text"
+                android:background="@color/white"
+                android:orientation="horizontal" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="150px"
+                android:layout_height="80px"
+                android:text="전방경사"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="50px"/>
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:id="@+id/front_pelvis"
+                android:background="@color/white"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="50px"/>
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:id="@+id/no_front_pelvis"
+                android:background="@color/white"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="150px"
+                android:layout_height="80px"
+                android:text="후방경사"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="50px"/>
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:id="@+id/poster_pelvis"
+                android:background="@color/white"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="50px"/>
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:id="@+id/no_poster_pelvis"
+                android:background="@color/white"
+                android:orientation="horizontal" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
